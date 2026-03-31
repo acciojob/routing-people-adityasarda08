@@ -23,8 +23,7 @@ function Userdetails() {
 
   return (
     <div>
-      <Link to="/">← Back</Link>
-
+      <h1>User Details</h1>
       <p>Name: {user.name}</p>
       <p>Username: {user.username}</p>
       <p>Email: {user.email}</p>
